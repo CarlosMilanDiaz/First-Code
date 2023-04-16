@@ -1,0 +1,29 @@
+.cabecera{
+    background-image: url("./img/header.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Titulo2{
+    text-align: center;
+}
+.Columnas{
+    margin: 45px;
+    flex-grow: initial;
+    display: flex;
+    width: 50%;
+    max-width: 90%;
+
+}
+.Etiqueta{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.Bloques{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+}
