@@ -11,12 +11,13 @@
     text-align: center;
 }
 .Columnas{
-    margin: 45px;
-    flex-grow: initial;
     display: flex;
-    width: 50%;
-    max-width: 90%;
+    justify-content: center;
 
+}
+.imagen{
+    width: 350px;
+    margin: 0% 10px;
 }
 .Etiqueta{
     text-align: center;
