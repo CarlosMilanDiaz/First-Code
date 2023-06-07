@@ -1,5 +1,5 @@
 .cabecera{
-    background-image: url("./img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-size: cover;
     text-align: center;
     padding: 100px;
@@ -10,11 +10,7 @@
 .Titulo2{
     text-align: center;
 }
-.Columnas{
-    display: flex;
-    justify-content: center;
 
-}
 .imagen{
     width: 350px;
     margin: 0% 10px;
@@ -33,7 +29,9 @@
     flex-direction: column;
     text-align: left;
 }
- @media{
-    max-width: 600px;
-    min-width: 300px;
-}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
